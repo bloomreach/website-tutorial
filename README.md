@@ -1,10 +1,10 @@
-# Hippo CMS Tutorial: Building a Website
+# BloomReach Experience Manager Tutorial: Building a Website
 
-This tutorial will guide you through the development of GoGreen, Hippo's demo
-web site. The tutorial follows two development iterations. In each iteration
-you will deliver a working site and increase your Hippo knowledge level at the
+This tutorial will guide you through the development of GoGreen, brXM's demo
+website. The tutorial follows two development iterations. In each iteration,
+you will deliver a working site and increase your brXM knowledge level at the
 same time. At the end of the tutorial, you will have a good idea of the basic
-development tasks involved in the implementation of a Hippo-based web site.
+development tasks involved in the implementation of a brXM-based website.
 
 ## Full tutorial:
 [https://www.onehippo.org/trails/developer-trail/introduction.html](https://www.onehippo.org/trails/developer-trail/introduction.html)
@@ -16,8 +16,8 @@ The tutorial describes two project iterations:
 
 The result of each project iteration is available from the corresponding branch:
 
-1. [iteration-1](https://github.com/onehippo/website-tutorial/tree/iteration-1)
-2. [iteration-2](https://github.com/onehippo/website-tutorial/tree/iteration-2)
+1. [iteration-1](https://github.com/bloomreach/website-tutorial/tree/iteration-1)
+2. [iteration-2](https://github.com/bloomreach/website-tutorial/tree/iteration-2)
 
 ## Running locally
 
@@ -30,11 +30,11 @@ From the project root folder, execute:
 
 Access the applications at the following URLs:
 
-* Hippo Essentials: `http://localhost:8080/essentials`
-* Hippo CMS: `http://localhost:8080/cms`
+* Essentials: `http://localhost:8080/essentials`
+* CMS: `http://localhost:8080/cms`
 * Website: `http://localhost:8080/site`
 
-Logs are located in `target/tomcat8x/logs`.
+Logs are located in `target/tomcat9x/logs`.
 
 ## Best Practice for development
 

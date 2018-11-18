@@ -10,3 +10,11 @@ definitions:
         /container:
           jcr:primaryType: hst:containercomponentreference
           hst:referencecomponent: pagenotfound/main
+      /newspage:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:abstractpages/twocolumns
+        /main:
+          jcr:primaryType: hst:component
+          /left:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: newspage/main/left

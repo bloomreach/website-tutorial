@@ -38,7 +38,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/small/small.jpg
-        jcr:lastModified: 2018-08-21T10:37:32.445-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.226+13:00
         jcr:mimeType: image/jpeg
       /gogreen:large:
         jcr:primaryType: hippogallery:image
@@ -47,7 +47,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/large/large.jpg
-        jcr:lastModified: 2018-08-21T10:37:32.506-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.290+13:00
         jcr:mimeType: image/jpeg
       /gogreen:smallsquare:
         jcr:primaryType: hippogallery:image
@@ -56,7 +56,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/smallsquare/smallsquare.jpg
-        jcr:lastModified: 2018-08-21T10:37:32.570-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.357+13:00
         jcr:mimeType: image/jpeg
       /gogreen:mediumsquare:
         jcr:primaryType: hippogallery:image
@@ -65,7 +65,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/mediumsquare/mediumsquare.jpg
-        jcr:lastModified: 2018-08-21T10:37:32.629-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.453+13:00
         jcr:mimeType: image/jpeg
       /gogreen:largesquare:
         jcr:primaryType: hippogallery:image
@@ -74,7 +74,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/largesquare/largesquare.jpg
-        jcr:lastModified: 2018-08-21T10:37:32.689-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.513+13:00
         jcr:mimeType: image/jpeg
       /gogreen:banner:
         jcr:primaryType: hippogallery:image
@@ -83,7 +83,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/banner/banner.jpg
-        jcr:lastModified: 2018-08-21T10:37:32.757-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.581+13:00
         jcr:mimeType: image/jpeg
   /banner-2.jpg:
     jcr:primaryType: hippo:handle
@@ -119,7 +119,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/small/small.jpg
-        jcr:lastModified: 2018-08-21T10:37:32.981-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.671+13:00
         jcr:mimeType: image/jpeg
       /gogreen:large:
         jcr:primaryType: hippogallery:image
@@ -128,7 +128,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/large/large.jpg
-        jcr:lastModified: 2018-08-21T10:37:33.006-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.698+13:00
         jcr:mimeType: image/jpeg
       /gogreen:smallsquare:
         jcr:primaryType: hippogallery:image
@@ -137,7 +137,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/smallsquare/smallsquare.jpg
-        jcr:lastModified: 2018-08-21T10:37:33.036-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.729+13:00
         jcr:mimeType: image/jpeg
       /gogreen:mediumsquare:
         jcr:primaryType: hippogallery:image
@@ -146,7 +146,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/mediumsquare/mediumsquare.jpg
-        jcr:lastModified: 2018-08-21T10:37:33.056-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.751+13:00
         jcr:mimeType: image/jpeg
       /gogreen:largesquare:
         jcr:primaryType: hippogallery:image
@@ -155,7 +155,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/largesquare/largesquare.jpg
-        jcr:lastModified: 2018-08-21T10:37:33.076-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.774+13:00
         jcr:mimeType: image/jpeg
       /gogreen:banner:
         jcr:primaryType: hippogallery:image
@@ -164,12 +164,12 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/banner/banner.jpg
-        jcr:lastModified: 2018-08-21T10:37:33.104-07:00
+        jcr:lastModified: 2018-11-18T15:38:55.804+13:00
         jcr:mimeType: image/jpeg
   /office.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
-    jcr:uuid: afc5ff8a-1b1a-44eb-84fd-b6525510ee42
+    jcr:uuid: a6d4388d-ec3d-424d-a988-ba577faa1738
     /office.jpg:
       jcr:primaryType: gogreen:imageset
       hippo:availability: [live, preview]
@@ -182,7 +182,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/thumbnail/thumbnail.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
       /gogreen:small:
         jcr:primaryType: hippogallery:image
@@ -191,7 +191,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/small/small.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
         jcr:primaryType: hippogallery:image
@@ -200,7 +200,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/original/original.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
       /gogreen:large:
         jcr:primaryType: hippogallery:image
@@ -209,7 +209,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/large/large.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
       /gogreen:banner:
         jcr:primaryType: hippogallery:image
@@ -218,7 +218,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/banner/banner.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
       /gogreen:largesquare:
         jcr:primaryType: hippogallery:image
@@ -227,7 +227,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/largesquare/largesquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
       /gogreen:mediumsquare:
         jcr:primaryType: hippogallery:image
@@ -236,7 +236,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/mediumsquare/mediumsquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
       /gogreen:smallsquare:
         jcr:primaryType: hippogallery:image
@@ -245,12 +245,12 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/smallsquare/smallsquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:34.551-07:00
+        jcr:lastModified: 2018-11-18T17:40:34.878+13:00
         jcr:mimeType: image/jpeg
   /study.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
-    jcr:uuid: 90ce6c83-85ec-44ff-a0c9-4a05f100a9d0
+    jcr:uuid: a7b4faee-d1ab-4925-9290-4325781a8f3d
     /study.jpg:
       jcr:primaryType: gogreen:imageset
       hippo:availability: [live, preview]
@@ -263,7 +263,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/thumbnail/thumbnail.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
       /gogreen:small:
         jcr:primaryType: hippogallery:image
@@ -272,7 +272,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/small/small.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
         jcr:primaryType: hippogallery:image
@@ -281,7 +281,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/original/original.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
       /gogreen:large:
         jcr:primaryType: hippogallery:image
@@ -290,7 +290,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/large/large.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
       /gogreen:banner:
         jcr:primaryType: hippogallery:image
@@ -299,7 +299,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/banner/banner.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
       /gogreen:largesquare:
         jcr:primaryType: hippogallery:image
@@ -308,7 +308,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/largesquare/largesquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
       /gogreen:mediumsquare:
         jcr:primaryType: hippogallery:image
@@ -317,7 +317,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/mediumsquare/mediumsquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
       /gogreen:smallsquare:
         jcr:primaryType: hippogallery:image
@@ -326,12 +326,12 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/smallsquare/smallsquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.093-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.116+13:00
         jcr:mimeType: image/jpeg
   /thermostat2.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
-    jcr:uuid: 655412ec-f70f-46b2-8c8f-f7c757bc0598
+    jcr:uuid: 344b8e71-b23f-488f-b654-af71487e8d69
     /thermostat2.jpg:
       jcr:primaryType: gogreen:imageset
       hippo:availability: [live, preview]
@@ -344,7 +344,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/thumbnail/thumbnail.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg
       /gogreen:small:
         jcr:primaryType: hippogallery:image
@@ -353,7 +353,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/small/small.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
         jcr:primaryType: hippogallery:image
@@ -362,7 +362,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/original/original.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg
       /gogreen:large:
         jcr:primaryType: hippogallery:image
@@ -371,7 +371,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/large/large.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg
       /gogreen:banner:
         jcr:primaryType: hippogallery:image
@@ -380,7 +380,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/banner/banner.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg
       /gogreen:largesquare:
         jcr:primaryType: hippogallery:image
@@ -389,7 +389,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/largesquare/largesquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg
       /gogreen:mediumsquare:
         jcr:primaryType: hippogallery:image
@@ -398,7 +398,7 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/mediumsquare/mediumsquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg
       /gogreen:smallsquare:
         jcr:primaryType: hippogallery:image
@@ -407,5 +407,5 @@
         jcr:data:
           type: binary
           resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/smallsquare/smallsquare.jpg
-        jcr:lastModified: 2018-08-21T10:52:35.422-07:00
+        jcr:lastModified: 2018-11-18T17:40:36.424+13:00
         jcr:mimeType: image/jpeg

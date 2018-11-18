@@ -2,9 +2,9 @@
   .meta:order-before: about
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-  jcr:uuid: c3614d2e-253b-4cb6-a7ec-872b8257b744
+  jcr:uuid: 4ac1cbb6-b63b-49c2-80d3-c74bbbae0a58
   hippostd:foldertype: [new-content-document, new-content-folder]
-  hippotranslation:id: 8fcb1b96-496b-4d66-a3a5-fb5a685be74d
+  hippotranslation:id: 1f7d0119-da73-4faf-b5cf-8c0ebe256ca9
   hippotranslation:locale: en
   /sample-document:
     jcr:primaryType: hippo:handle
@@ -14,7 +14,7 @@
     /sample-document:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 45fefccd-3642-4284-85dc-46d669ffb2e5
+      jcr:uuid: 61045b73-9cd3-41b4-8ebe-8ebd374c331d
       gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       gogreen:publicationdate: 2014-03-25T16:52:00+01:00
@@ -27,7 +27,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
-      hippotranslation:id: 9a035a1b-a2b0-4664-bd2c-6602e011344b
+      hippotranslation:id: 53128bc9-0386-4050-a063-d683ac785e14
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -56,7 +56,7 @@
     /another-sample-document:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 2a4095e6-cb25-4a61-b833-0ad8277f89d9
+      jcr:uuid: 05418754-1644-4da4-b3b4-4aede05cc646
       gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       gogreen:publicationdate: 2014-03-25T16:52:00+01:00
@@ -69,7 +69,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
-      hippotranslation:id: 0a5ae37f-4721-4913-840f-9fbfa1d34c68
+      hippotranslation:id: ae81e6e0-fe84-4ccd-900e-6eb618e9df1e
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html

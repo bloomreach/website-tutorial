@@ -21,6 +21,7 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:label: Home Page Main
           hst:xtype: hst.vbox
+          hst:lastmodified: 2018-11-18T17:47:54.370+13:00
       /pagenotfound:
         jcr:primaryType: hst:containercomponentfolder
         /main:

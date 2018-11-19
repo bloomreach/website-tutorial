@@ -3,18 +3,18 @@ definitions:
     /hippo:namespaces/gogreen/contentdocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: 87eeb663-a408-4d70-be71-06277c699d4d
+      jcr:uuid: fa80c96b-d75f-43e4-bed6-d56bc9296c76
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 562203b3-5c49-4537-8ed7-518322c3b352
+        jcr:uuid: 652653b7-c0de-44c1-ba1f-fcc64da2c6f3
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 03088919-33bc-4ccc-8101-5573fb232f83
+          jcr:uuid: 38680142-c90a-4daf-ba9e-60174cb645eb
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
-          hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
+          hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
           /title:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -52,7 +52,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:contentdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 5659c4d5-4a67-4097-a546-be424d4802f3
+          jcr:uuid: 3e5ed17a-c330-4a8e-b6d7-dbcfcc6c5ecd
           gogreen:introduction: ''
           gogreen:publicationdate: 0001-01-01T13:00:00+01:00
           gogreen:title: ''

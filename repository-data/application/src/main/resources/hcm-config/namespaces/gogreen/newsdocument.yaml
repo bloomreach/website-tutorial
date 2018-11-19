@@ -3,18 +3,18 @@ definitions:
     /hippo:namespaces/gogreen/newsdocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: b8ca4f4f-5f05-4218-a2ed-5dab5d984f42
+      jcr:uuid: 36882d04-d971-4a1d-9a90-5cf3f0f693a6
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 2fbaf783-7441-4598-855e-962c5f40be1a
+        jcr:uuid: 90e8c554-51e0-433a-8759-41b15cc11f35
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: d6f11915-a917-4d47-8faa-1ad2618de9d6
+          jcr:uuid: d12552c7-b36f-439a-871e-bce4ecf58f4c
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
-          hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
+          hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
           /title:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -93,7 +93,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 1a608592-42cc-41ac-847e-a8b9e4461d59
+          jcr:uuid: 51591a88-ae52-4a26-a894-efd781aebcd4
           gogreen:date: 0001-01-01T13:00:00+01:00
           gogreen:documenttype: news
           gogreen:introduction: ''
@@ -107,8 +107,8 @@ definitions:
           hippostdpubwf:lastModifiedBy: ''
           hippotranslation:id: document-type-locale-id
           hippotranslation:locale: document-type-locale
-          gogreen:location: ''
           gogreen:source: ''
+          gogreen:location: ''
           gogreen:author: ''
           /gogreen:content:
             jcr:primaryType: hippostd:html

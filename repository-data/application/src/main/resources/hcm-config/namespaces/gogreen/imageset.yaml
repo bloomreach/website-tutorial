@@ -3,17 +3,17 @@ definitions:
     /hippo:namespaces/gogreen/imageset:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: da2fe7ba-1298-4b54-a481-02295aa53204
+      jcr:uuid: b4e94acd-1dda-480f-b524-d23ba23e9406
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: bebbf6ef-2aa3-4b53-ab4e-3d202178a7c8
+        jcr:uuid: 510d2257-60a5-47c6-b401-61218d695723
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel']
           hipposysedit:node: true
           hipposysedit:supertype: ['hippogallery:imageset', 'hippogallery:relaxed']
-          hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
+          hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
           /filename:
             jcr:primaryType: hipposysedit:field
             hipposysedit:path: hippogallery:filename
@@ -62,7 +62,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:imageset
           jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 985825de-e424-4b97-a123-a196848dda6f
+          jcr:uuid: 4e8705d7-3e94-4b90-861b-6ec07ee096c5
           /hippogallery:thumbnail:
             jcr:primaryType: hippogallery:image
             jcr:data:

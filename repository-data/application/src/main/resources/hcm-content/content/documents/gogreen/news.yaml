@@ -2,35 +2,36 @@
   .meta:order-before: content
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-  jcr:uuid: c8c28233-fa59-40cd-82ac-08d7c558a6f5
+  jcr:uuid: d120a210-9b80-4c95-8daf-350073691148
   hippostd:foldertype: [new-news-document, new-news-folder]
-  hippotranslation:id: 9fe9a47b-8c2f-49e2-9996-6fe55324e901
+  hippotranslation:id: 2ba45771-e752-456e-91b4-daff0608fc4b
   hippotranslation:locale: en
   /2018:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-    jcr:uuid: 22151b23-b070-44e3-b684-0ae4e3ab0636
+    jcr:uuid: 98b3f8dd-f866-4033-848b-b9bd400e6ad8
     hippostd:foldertype: [new-news-document, new-news-folder]
-    hippotranslation:id: f944033b-0ef6-4408-ba28-df387cb9e5a6
+    hippotranslation:id: c6f8954f-b735-4c7e-9b71-766b4627eadb
     hippotranslation:locale: en
-    /08:
+    /11:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 18ead77b-1c28-49b6-8e4e-d6de87472270
+      jcr:uuid: ec18afab-af12-44c6-b399-f5989eb571b1
       hippostd:foldertype: [new-news-document, new-news-folder]
-      hippotranslation:id: 3a87b706-9608-44b8-8013-b52d22ec8283
+      hippotranslation:id: d6c56abb-711d-4763-9838-f1fce655c0d2
       hippotranslation:locale: en
       /the-medusa-news:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: c580ac64-3874-4717-a6d9-e5ad72080abe
         hippo:name: The medusa news
+        hippo:versionHistory: 9ba4d3b5-5d75-47ef-a6a9-bb2640c0aa61
         /the-medusa-news[1]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: df19cd34-d6b5-431c-86d1-856e218bb287
+          jcr:uuid: 1bf9d54e-e5d9-442c-aa6c-e1abbdde9ada
           gogreen:author: Alfred Anonymous
-          gogreen:date: 2018-08-21T10:20:00-07:00
+          gogreen:date: 2018-11-18T15:14:00+13:00
           gogreen:documenttype: news
           gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -47,10 +48,10 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-08-21T13:04:59.758-07:00
+          hippostdpubwf:lastModificationDate: 2018-11-19T11:38:22.578+13:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-08-21T13:05:05.046-07:00
-          hippotranslation:id: 1a695e3c-eb9f-461c-a0c8-ff67188e269f
+          hippostdpubwf:publicationDate: 2018-11-19T11:38:25.582+13:00
+          hippotranslation:id: 3ad5d80d-50af-48eb-bf72-6253e6c3d64b
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
@@ -96,9 +97,9 @@
         /the-medusa-news[2]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-          jcr:uuid: 568ff934-4bb1-4bd3-bc11-48269d4f05c4
+          jcr:uuid: 1be31784-af87-4214-8b36-f82e3dc05a8c
           gogreen:author: Alfred Anonymous
-          gogreen:date: 2018-08-21T10:20:00-07:00
+          gogreen:date: 2018-11-18T15:14:00+13:00
           gogreen:documenttype: news
           gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -114,9 +115,9 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-08-21T13:04:59.758-07:00
+          hippostdpubwf:lastModificationDate: 2018-11-19T11:38:22.578+13:00
           hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 1a695e3c-eb9f-461c-a0c8-ff67188e269f
+          hippotranslation:id: 3ad5d80d-50af-48eb-bf72-6253e6c3d64b
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
@@ -162,9 +163,9 @@
         /the-medusa-news[3]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 56692673-8154-4c98-b0cf-428d5ddf70a4
+          jcr:uuid: 54b8976a-eb5f-4f62-a54b-06cce1bf0ebd
           gogreen:author: Alfred Anonymous
-          gogreen:date: 2018-08-21T10:20:00-07:00
+          gogreen:date: 2018-11-18T15:14:00+13:00
           gogreen:documenttype: news
           gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -180,9 +181,9 @@
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-08-21T13:03:55.966-07:00
+          hippostdpubwf:lastModificationDate: 2018-11-19T11:33:13.895+13:00
           hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 1a695e3c-eb9f-461c-a0c8-ff67188e269f
+          hippotranslation:id: 3ad5d80d-50af-48eb-bf72-6253e6c3d64b
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
@@ -233,9 +234,9 @@
         /2013-harvest:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: caa5e597-293c-4b8d-8416-6bc5ee7d5ad4
+          jcr:uuid: b40a192b-a69f-4765-a26d-45d3f4f73cd2
           gogreen:author: Alfred Anonymous
-          gogreen:date: 2018-08-21T10:20:00-07:00
+          gogreen:date: 2018-11-18T15:14:00+13:00
           gogreen:documenttype: news
           gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -255,7 +256,7 @@
           hippostdpubwf:lastModificationDate: 2013-11-12T14:31:00+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippostdpubwf:publicationDate: 2013-11-12T14:31:00+01:00
-          hippotranslation:id: ba552aa8-bc70-45a6-b83c-0397caa6efc6
+          hippotranslation:id: fe928a13-4fe6-4e91-81a7-a0c49160054c
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
@@ -300,9 +301,9 @@
         /the-gastropoda-news:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 954bbc58-46db-47fe-b7d5-9281963eab70
+          jcr:uuid: 969d4198-368b-4f0d-80c0-57cca6d81ce8
           gogreen:author: Alfred Anonymous
-          gogreen:date: 2018-08-21T10:20:00-07:00
+          gogreen:date: 2018-11-18T15:14:00+13:00
           gogreen:documenttype: news
           gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -322,7 +323,7 @@
           hippostdpubwf:lastModificationDate: 2013-11-12T12:52:00+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippostdpubwf:publicationDate: 2013-11-12T12:52:00+01:00
-          hippotranslation:id: ac0cf153-a24a-46de-b2c0-897f0dde53a4
+          hippotranslation:id: b0b3366d-f1ce-4ffe-be86-60dc9c568a5f
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html

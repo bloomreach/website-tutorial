@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
-    <version>12.5.0</version>
+    <version>13.0.0-SNAPSHOT</version>
   </parent>
 
   <name>GoGreen</name>
@@ -63,12 +63,9 @@
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
-    <essentials.version>4.5.0</essentials.version>
+    <essentials.version>13.0.0-SNAPSHOT</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
-    <xalan.version>2.7.2</xalan.version>
-    <junit.version>4.12</junit.version>
-    <easymock.version>3.4</easymock.version>
 
     <development-module-deploy-dir>shared/lib</development-module-deploy-dir>
 
@@ -86,12 +83,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>org.onehippo.cms7</groupId>
-        <artifactId>hippo-essentials-plugin-sdk-api</artifactId>
-        <version>${essentials.version}</version>
-      </dependency>
-
       <dependency>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
@@ -114,38 +105,11 @@
         <scope>runtime</scope>
       </dependency>
 
-      <dependency>
-        <groupId>xalan</groupId>
-        <artifactId>xalan</artifactId>
-        <version>${xalan.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-      <dependency>
-        <groupId>xalan</groupId>
-        <artifactId>serializer</artifactId>
-        <version>${xalan.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-
       <!-- other predefined compile scope versioned dependencies -->
       <dependency>
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
         <version>${freemarker.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${junit.version}</version>
-        <scope>test</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>org.easymock</groupId>
-        <artifactId>easymock</artifactId>
-        <version>${easymock.version}</version>
-        <scope>test</scope>
       </dependency>
 
     </dependencies>
@@ -213,6 +177,7 @@
         </property>
       </activation>
       <modules>
+        <module>cms-dependencies</module>
         <module>repository-data</module>
         <module>cms</module>
         <module>site</module>
@@ -223,8 +188,8 @@
     <profile>
       <id>cargo.run</id>
       <properties>
-        <!--Already defined in hippo-cms-project POM. Override here for project, if necessary-->
-        <!--<repo.bootstrap>true</repo.bootstrap>-->
+        <!-- Already defined in the cms project POM. Override here for your project, if necessary -->
+        <!-- <repo.bootstrap>true</repo.bootstrap> -->
       </properties>
       <build>
         <plugins>
@@ -261,10 +226,10 @@
                   <location>${project.basedir}/cms/target/cms.war</location>
                 </deployable>
                 <deployable>
-                  <location>${project.basedir}/site/target/site.war</location>
+                  <location>${project.basedir}/site/webapp/target/site.war</location>
                   <type>war</type>
                   <properties>
-                    <context>/site</context>
+                    <context>/gogreen</context>
                   </properties>
                 </deployable>
                 <deployable>

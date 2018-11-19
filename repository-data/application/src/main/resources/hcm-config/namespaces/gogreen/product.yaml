@@ -3,18 +3,18 @@ definitions:
     /hippo:namespaces/gogreen/product:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: 549caffd-f814-4f8c-bcbd-8eff5663b930
+      jcr:uuid: a12f3f20-c07c-4b73-8ba9-f415c36b1abe
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 5f2c6279-7afa-4c7e-afd8-9c15ec6d313c
+        jcr:uuid: a161c6c0-d151-40f1-afd8-a443cfa33f74
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: 541d1281-7a1e-407d-abb3-7ccbb9f199b1
+          jcr:uuid: ba7e034e-0627-4848-b064-161ce7ba3cbe
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
-          hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
+          hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
           /title:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -59,7 +59,6 @@ definitions:
             hipposysedit:path: gogreen:images
             hipposysedit:primary: false
             hipposysedit:type: hippogallerypicker:imagelink
-            hipposysedit:validators: [required]
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
@@ -71,12 +70,12 @@ definitions:
           hippotranslation:id: document-type-locale-id
           hippotranslation:locale: document-type-locale
           jcr:mixinTypes: ['mix:referenceable']
+          gogreen:title: ''
           gogreen:price: 0.0
           gogreen:introduction: ''
-          gogreen:title: ''
-          jcr:uuid: bb3300e6-d710-4000-a109-cc341cb8e098
-          hippostdpubwf:lastModificationDate: 2018-08-21T15:15:05.706-07:00
-          hippostdpubwf:creationDate: 2018-08-21T15:15:05.706-07:00
+          jcr:uuid: d48c1a5b-60f2-443a-9296-98e3afe2687f
+          hippostdpubwf:lastModificationDate: 2018-11-19T14:29:48.560+13:00
+          hippostdpubwf:creationDate: 2018-11-19T14:29:48.560+13:00
           /gogreen:description:
             jcr:primaryType: hippostd:html
             hippostd:content: ''

@@ -1,4 +1,4 @@
-group: 
+group:
   name: gogreen
   after: hippo-cms
 project: gogreen

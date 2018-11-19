@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
     <applicationSubModule>application</applicationSubModule>
+    <cmsDependenciesModule>cms-dependencies</cmsDependenciesModule>
     <cmsModule>cms</cmsModule>
     <confirmParams>false</confirmParams>
     <developmentSubModule>development</developmentSubModule>
     <enterprise>false</enterprise>
     <extraTemplates>true</extraTemplates>
+    <hstRoot>/hst:gogreen</hstRoot>
     <projectNamespace>gogreen</projectNamespace>
     <repositoryDataModule>repository-data</repositoryDataModule>
     <selectedBeansPackage>org.example.beans</selectedBeansPackage>
@@ -14,7 +16,7 @@
     <selectedRestPackage>org.example.rest</selectedRestPackage>
     <setupDone>true</setupDone>
     <siteModule>site</siteModule>
-    <templateLanguage>freemarker</templateLanguage>
     <useSamples>true</useSamples>
+    <webfileBundleName>gogreen</webfileBundleName>
     <webfilesSubModule>webfiles</webfilesSubModule>
 </project>

@@ -17,6 +17,6 @@
     <setupDone>true</setupDone>
     <siteModule>site</siteModule>
     <useSamples>true</useSamples>
-    <webfileBundleName>gogreen</webfileBundleName>
+    <webfileBundleName>site</webfileBundleName>
     <webfilesSubModule>webfiles</webfilesSubModule>
 </project>

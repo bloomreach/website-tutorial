@@ -229,7 +229,7 @@
                   <location>${project.basedir}/site/webapp/target/site.war</location>
                   <type>war</type>
                   <properties>
-                    <context>/gogreen</context>
+                    <context>/site</context>
                   </properties>
                 </deployable>
                 <deployable>

@@ -7,12 +7,12 @@ same time. At the end of the tutorial, you will have a good idea of the basic
 development tasks involved in the implementation of a brXM-based website.
 
 ## Full tutorial:
-[https://www.onehippo.org/trails/developer-trail/introduction.html](https://www.onehippo.org/trails/developer-trail/introduction.html)
+[https://documentation.bloomreach.com/trails/developer-trail/introduction.html](https://documentation.bloomreach.com/trails/developer-trail/introduction.html)
 
 The tutorial describes two project iterations:
 
-1. [Select Out-of-the-Box Features](https://www.onehippo.org/trails/developer-trail/configure-out-of-the-box-features/select-out-of-the-box-features.html)
-2. [Develop New Features](https://www.onehippo.org/trails/developer-trail/develop-new-features/two-columns-page-configuration.html)
+1. [Select Out-of-the-Box Features](https://documentation.bloomreach.com/trails/developer-trail/configure-out-of-the-box-features/select-out-of-the-box-features.html)
+2. [Develop New Features](https://documentation.bloomreach.com/trails/developer-trail/develop-new-features/two-columns-page-configuration.html)
 
 The result of each project iteration is available from the corresponding branch:
 

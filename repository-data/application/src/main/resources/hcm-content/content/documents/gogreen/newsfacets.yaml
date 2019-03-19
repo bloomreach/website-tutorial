@@ -1,6 +1,0 @@
-/content/documents/gogreen/newsfacets:
-  jcr:primaryType: hippofacnav:facetnavigation
-  hippo:docbase: d120a210-9b80-4c95-8daf-350073691148
-  hippofacnav:facetnodenames: [Location, Author, Year]
-  hippofacnav:facets: ['gogreen:location', 'gogreen:author', 'gogreen:date$year']
-  hippofacnav:filters: ['jcr:primaryType=gogreen:newsdocument']

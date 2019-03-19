@@ -1,9 +1,0 @@
-/content/documents/gogreen:
-  .meta:order-before: administration
-  jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
-  jcr:uuid: a68a8318-f538-4846-acfb-5c86ea1054a6
-  hippo:name: GoGreen
-  hippostd:foldertype: [new-translated-folder, new-document]
-  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
-  hippotranslation:locale: en

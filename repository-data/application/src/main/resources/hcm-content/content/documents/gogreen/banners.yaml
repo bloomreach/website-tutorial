@@ -1,4 +1,5 @@
 /content/documents/gogreen/banners:
+  .meta:order-before: about
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 1954348e-a49c-46e0-803b-eac322458770

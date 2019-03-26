@@ -1,4 +1,5 @@
 /content/documents/gogreen/products:
+  .meta:order-before: newsfacets
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: dc0c67cd-7b49-49e5-8aca-d4cde40c5d38

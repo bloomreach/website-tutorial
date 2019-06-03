@@ -1,0 +1,102 @@
+/content/documents/gogreen/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: bbd02b44-bc6f-4020-be16-ce8550107ce2
+  hippo:name: About
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 1180faa3-695c-42b2-818e-1a720251b532
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: f8fd4279-bb2b-4fdb-9cea-0a1889d5cdf5
+    hippo:name: About
+    hippo:versionHistory: a11bdb68-ad52-4cd7-b203-12ee0ee31702
+    /about[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 09108304-006a-4391-97fb-3f09c5f49e4f
+      gogreen:introduction: This website is a demo website to showcase the features
+        of BloomReach Experience Manager.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-03T10:50:13.735-07:00
+      hippostdpubwf:lastModificationDate: 2019-06-03T10:50:13.735-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7ed8fad1-cdb8-40d6-82dc-0ab986ea18e1
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>BloomReach Experience Manager is the Content Management System for creating personalized experiences across all channels. brXM’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love brXM because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love brXM because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love brXM because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.bloomreach.com/">bloomreach.com</a></p>
+    /about[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 15d4c0a1-8d9c-404c-992f-ec611a3e604c
+      gogreen:introduction: This website is a demo website to showcase the features
+        of BloomReach Experience Manager.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-03T10:50:13.735-07:00
+      hippostdpubwf:lastModificationDate: 2019-06-03T10:50:38.323-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7ed8fad1-cdb8-40d6-82dc-0ab986ea18e1
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>BloomReach Experience Manager is the Content Management System for creating personalized experiences across all channels. brXM’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love brXM because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love brXM because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love brXM because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.bloomreach.com/">bloomreach.com</a></p>
+    /about[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3fff9fbb-9981-4391-81c6-d8942feb78d4
+      gogreen:introduction: This website is a demo website to showcase the features
+        of BloomReach Experience Manager.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-03T10:50:13.735-07:00
+      hippostdpubwf:lastModificationDate: 2019-06-03T10:50:38.323-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-06-03T10:50:39.941-07:00
+      hippotranslation:id: 7ed8fad1-cdb8-40d6-82dc-0ab986ea18e1
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>BloomReach Experience Manager is the Content Management System for creating personalized experiences across all channels. brXM’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love brXM because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love brXM because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love brXM because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.bloomreach.com/">bloomreach.com</a></p>

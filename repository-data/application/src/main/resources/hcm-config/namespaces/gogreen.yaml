@@ -1,6 +1,0 @@
-definitions:
-  config:
-    /hippo:namespaces/gogreen:
-      jcr:primaryType: hipposysedit:namespace
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: a15ced37-1766-4bb0-9e13-0dcdf475a416

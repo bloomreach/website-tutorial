@@ -22,10 +22,11 @@
       hippotranslation:locale: en
       /the-medusa-news:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: c580ac64-3874-4717-a6d9-e5ad72080abe
         hippo:name: The medusa news
-        /the-medusa-news:
+        hippo:versionHistory: 6f43a415-b16a-4e84-ac92-fcf52aeec60c
+        /the-medusa-news[1]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: fb4631b0-59d5-4fdd-bc3f-c4e22c995032
@@ -42,14 +43,14 @@
           gogreen:location: Rotterdam
           gogreen:source: ''
           gogreen:title: The medusa news
-          hippo:availability: [live, preview]
+          hippo:availability: [live]
           hippostd:holder: admin
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T13:04:00+01:00
+          hippostdpubwf:lastModificationDate: 2019-07-31T10:14:41.793-07:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-11-12T13:04:00+01:00
+          hippostdpubwf:publicationDate: 2019-07-31T10:14:43.244-07:00
           hippotranslation:id: 639bcb75-58a9-41d4-930d-281745f3fab3
           hippotranslation:locale: en
           /gogreen:content:
@@ -87,6 +88,144 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+          /gogreen:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+        /the-medusa-news[2]:
+          jcr:primaryType: gogreen:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: f0f47285-742e-447a-8b08-5125dd6706fe
+          gogreen:author: Alfred Anonymous
+          gogreen:date: 2019-07-30T11:43:00-07:00
+          gogreen:documenttype: news
+          gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum
+          gogreen:location: Rotterdam
+          gogreen:source: ''
+          gogreen:title: The medusa news
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2019-07-31T10:14:41.793-07:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 639bcb75-58a9-41d4-930d-281745f3fab3
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                        </body>
+                        </html>
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /gogreen:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+          /gogreen:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+        /the-medusa-news[3]:
+          jcr:primaryType: gogreen:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8b125fd8-5211-409a-9e78-dc38d9809c49
+          gogreen:author: Alfred Anonymous
+          gogreen:date: 2019-07-30T11:43:00-07:00
+          gogreen:documenttype: news
+          gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum
+          gogreen:location: Rotterdam
+          gogreen:source: ''
+          gogreen:title: The medusa news
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2019-07-31T10:14:28.651-07:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 639bcb75-58a9-41d4-930d-281745f3fab3
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                        </body>
+                        </html>
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /gogreen:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+          /gogreen:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
       /2013-harvest:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']

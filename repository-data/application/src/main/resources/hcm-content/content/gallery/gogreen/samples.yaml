@@ -1,4 +1,5 @@
 /content/gallery/gogreen/samples:
+  .meta:order-before: products
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['mix:referenceable']
   jcr:uuid: 3704aa04-ebe9-4421-9d0e-f23bdd1b47f2

@@ -1,6 +1,6 @@
 definitions:
   config:
-    /hippo:namespaces/gogreen/products:
+    /hippo:namespaces/gogreen/product:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
       jcr:uuid: ace67f3e-0849-4c63-a158-3c40d67302a1
@@ -63,7 +63,7 @@ definitions:
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
-          jcr:primaryType: gogreen:products
+          jcr:primaryType: gogreen:product
           hippostd:holder: holder
           hippostd:state: draft
           hippostdpubwf:createdBy: ''

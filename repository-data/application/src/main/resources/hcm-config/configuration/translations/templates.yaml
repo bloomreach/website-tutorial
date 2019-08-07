@@ -24,8 +24,8 @@ definitions:
       new-gogreen-imageset-folder: new folder
       new-imageset-document: new imageset document
       new-imageset-folder: new imageset folder
-      new-products-document: new products document
-      new-products-folder: new products folder
+      new-product-document: new product document
+      new-product-folder: new product folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit

@@ -228,18 +228,24 @@
         hippo:values: []
   /mec-lodge-4-4-tent:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 14b3f527-5ff1-49d3-8c08-cf95517d1ff2
     hippo:name: MEC Lodge 4+4 Tent
-    /mec-lodge-4-4-tent:
+    hippo:versionHistory: 32519124-0ee8-4c6b-a30a-366a08965c12
+    /mec-lodge-4-4-tent[1]:
       jcr:primaryType: gogreen:product
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 19fa1382-3f16-4ee4-9666-f62f44f6b82a
-      gogreen:introduction: ''
-      gogreen:price: 0.0
-      gogreen:title: ''
+      gogreen:introduction: Glamping, anyone? This large tent has 2 bedrooms that
+        each sleep 2 people. Both rooms are accessed from a central hall that’s tall
+        enough to stand up in. The hall doesn't have a floor, so you can use it to
+        deal with wet gear without getting your sleeping bags wet or gritty. Store
+        your bikes in it, dry your wetsuit, or use it as a sheltered dining area.
+        An optional ground sheet converts the hall to a bedroom that sleeps up to
+        4 additional campers.
+      gogreen:price: 589.0
+      gogreen:title: MEC Lodge 4+4 Tent
       hippo:availability: []
-      hippostd:holder: admin
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2019-11-25T14:24:13.610-08:00
@@ -249,10 +255,101 @@
       hippotranslation:locale: en
       /gogreen:description:
         jcr:primaryType: hippostd:html
-        hippostd:content: ''
+        hippostd:content: |-
+          <ul>
+           <li>Central hall has doors with zippable mesh ventilation at either end.</li>
+           <li>Hall has numerous hanging points for drying lines or lanterns.</li>
+           <li>Each 2-person room has double pockets.</li>
+           <li>Hall has 4 storage pockets.</li>
+           <li>Optional floor for central hall available separately.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858">http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858</a></p>
       /gogreen:images:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: 4374b378-8794-4c8c-84f4-21bf89bc10db
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /mec-lodge-4-4-tent[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e0d2facd-5e1e-4f0d-89c8-69c40b392826
+      gogreen:introduction: Glamping, anyone? This large tent has 2 bedrooms that
+        each sleep 2 people. Both rooms are accessed from a central hall that’s tall
+        enough to stand up in. The hall doesn't have a floor, so you can use it to
+        deal with wet gear without getting your sleeping bags wet or gritty. Store
+        your bikes in it, dry your wetsuit, or use it as a sheltered dining area.
+        An optional ground sheet converts the hall to a bedroom that sleeps up to
+        4 additional campers.
+      gogreen:price: 589.0
+      gogreen:title: MEC Lodge 4+4 Tent
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-25T14:24:13.610-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:27:42.519-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9ab055f6-0332-4e49-beeb-347e59a905d0
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Central hall has doors with zippable mesh ventilation at either end.</li>
+           <li>Hall has numerous hanging points for drying lines or lanterns.</li>
+           <li>Each 2-person room has double pockets.</li>
+           <li>Hall has 4 storage pockets.</li>
+           <li>Optional floor for central hall available separately.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858">http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4374b378-8794-4c8c-84f4-21bf89bc10db
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /mec-lodge-4-4-tent[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a438ddca-5229-4325-9367-103ec562a051
+      gogreen:introduction: Glamping, anyone? This large tent has 2 bedrooms that
+        each sleep 2 people. Both rooms are accessed from a central hall that’s tall
+        enough to stand up in. The hall doesn't have a floor, so you can use it to
+        deal with wet gear without getting your sleeping bags wet or gritty. Store
+        your bikes in it, dry your wetsuit, or use it as a sheltered dining area.
+        An optional ground sheet converts the hall to a bedroom that sleeps up to
+        4 additional campers.
+      gogreen:price: 589.0
+      gogreen:title: MEC Lodge 4+4 Tent
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-25T14:24:13.610-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:27:42.519-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-25T14:27:44.005-08:00
+      hippotranslation:id: 9ab055f6-0332-4e49-beeb-347e59a905d0
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Central hall has doors with zippable mesh ventilation at either end.</li>
+           <li>Hall has numerous hanging points for drying lines or lanterns.</li>
+           <li>Each 2-person room has double pockets.</li>
+           <li>Hall has 4 storage pockets.</li>
+           <li>Optional floor for central hall available separately.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858">http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4374b378-8794-4c8c-84f4-21bf89bc10db
         hippo:facets: []
         hippo:modes: []
         hippo:values: []

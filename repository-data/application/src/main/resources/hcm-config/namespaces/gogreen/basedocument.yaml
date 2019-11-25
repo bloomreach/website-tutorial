@@ -3,9 +3,11 @@ definitions:
     /hippo:namespaces/gogreen/basedocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cb42ae03-0b8c-4ce5-b2c9-d39ed77de101
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d5f292f8-6b8b-45cc-b811-a5f764372162
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel']

@@ -1,0 +1,41 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:templates/nl:
+      jcr:primaryType: hipposys:resourcebundle
+      new-banner-document: nieuwe banner
+      new-banner-folder: nieuwe banner map
+      new-resource-bundle: nieuwe resource bundle
+      new-untranslated-folder: nieuwe onvertaalde map
+      new-news-folder: nieuwe nieuwsmap
+      new-news-document: nieuw nieuwsbericht
+      new-content-folder: nieuwe contentmap
+      new-content-document: nieuw content document
+    /hippo:configuration/hippo:translations/hippo:templates/de:
+      jcr:primaryType: hipposys:resourcebundle
+      new-banner-document: Neues Banner
+      new-banner-folder: Neuer Banner-Ordner
+      new-resource-bundle: Neues Resource-Bundle
+      new-untranslated-folder: Neuer nicht übersetzter Ordner
+      new-news-folder: Neuer News-Ordner
+      new-news-document: Neue News
+      new-content-folder: Neuer Content-Ordner
+      new-content-document: Neues Content-Document
+    /hippo:configuration/hippo:translations/hippo:templates/fr:
+      jcr:primaryType: hipposys:resourcebundle
+      new-banner-document: nouvelle bannière
+      new-banner-folder: nouveau dossier bannière
+      new-resource-bundle: nouveau resource bundle
+      new-untranslated-folder: nouveau dossier non traduit
+      new-news-folder: nouveau dossier messages d'info
+      new-news-document: nouveau message d'info
+      new-content-folder: nouveau dossier contenu
+      new-content-document: nouveau document contenu
+    /hippo:configuration/hippo:translations/hippo:templates/en:
+      new-banner-folder: new banner folder
+      new-banner-document: new banner document
+      new-resource-bundle: new resource bundle
+      new-untranslated-folder: new untranslated folder
+      new-news-document: new news item
+      new-news-folder: new news item folder
+      new-content-folder: new content folder
+      new-content-document: new content document

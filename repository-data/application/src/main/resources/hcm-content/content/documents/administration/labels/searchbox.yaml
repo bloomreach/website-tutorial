@@ -1,0 +1,20 @@
+/content/documents/administration/labels/searchbox:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 9ef0b353-b728-4b71-b916-95d93b5e4bc9
+  hippo:name: Searchbox
+  /searchbox:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 69df33bd-2a24-4bdd-82cb-71b508c7fa9a
+    hippo:availability: [live, preview]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-08-21T22:47:10.894+02:00
+    hippostdpubwf:lastModificationDate: 2014-08-21T22:47:47.214+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2014-08-21T22:47:49.117+02:00
+    resourcebundle:descriptions: [Placeholder text for search box.]
+    resourcebundle:id: essentials.searchbox
+    resourcebundle:keys: [searchbox.placeholder]
+    resourcebundle:messages: [Search]

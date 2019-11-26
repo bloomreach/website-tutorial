@@ -23,7 +23,7 @@ definitions:
         /_any_.html:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/newspage
-          hst:relativecontentpath: products/${1}
+          hst:relativecontentpath: news/${1}
         /_any_:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/newslist

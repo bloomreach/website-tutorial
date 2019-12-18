@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
-    <version>14.0.0</version>
+    <version>14.0.0-2</version>
   </parent>
 
   <name>GoGreen</name>

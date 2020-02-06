@@ -107,6 +107,14 @@
         </style>
     </@hst.headContribution>
 
+    <@hst.headContribution category="htmlBodyEnd">
+        <script type="text/javascript" src="<@hst.webfile path="/js/jquery-3.4.1.min.js"/>"></script>
+    </@hst.headContribution>
+
+    <@hst.headContribution category="htmlBodyEnd">
+        <script type="text/javascript" src="<@hst.webfile path="/js/bootstrap.min.js"/>"></script>
+    </@hst.headContribution>
+
 <#elseif editMode>
   <div>
     <img src="<@hst.link path='/images/essentials/catalog-component-icons/carousel.svg'/>"> Click to edit Carousel

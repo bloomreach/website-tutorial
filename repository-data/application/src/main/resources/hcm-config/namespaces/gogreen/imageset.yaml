@@ -3,11 +3,11 @@ definitions:
     /hippo:namespaces/gogreen/imageset:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: 35479f82-20cd-423b-8aa6-b8192a4238b2
+      jcr:uuid: f81fe49e-ec92-4af3-9afa-75f3bdec60f9
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 8a4b2c5f-5fb4-47ea-9d71-5c62dbe98dfb
+        jcr:uuid: 6543f8cc-9c29-48c4-a3a2-627cc4264e44
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel']
@@ -62,7 +62,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:imageset
           jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 80ca0b4b-1182-4b34-9992-afab0eb5675f
+          jcr:uuid: 56600502-b163-4d84-82f4-df1e94c8e911
           /hippogallery:thumbnail:
             jcr:primaryType: hippogallery:image
             jcr:data:

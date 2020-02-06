@@ -14,7 +14,7 @@ definitions:
         /hippostd:folder:
           jcr:primaryType: hippostd:folder
           jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-          jcr:uuid: 6f8682b0-e640-4fd8-ba8a-c06892707870
+          jcr:uuid: 65331d4a-00d6-4e93-a99b-f03355b4640a
           hippostd:foldertype: [new-banner-folder, new-banner-document]
           hippotranslation:id: generated id
           hippotranslation:locale: inherited locale

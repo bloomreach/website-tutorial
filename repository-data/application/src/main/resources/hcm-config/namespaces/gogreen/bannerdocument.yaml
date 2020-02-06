@@ -3,15 +3,15 @@ definitions:
     /hippo:namespaces/gogreen/bannerdocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: 4f716732-09b7-4feb-8c8d-4cd043a67dc2
+      jcr:uuid: 7663d328-4e3e-4d03-99bf-5d94933f1458
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 8fc340d9-ac00-4aa9-91f9-ccfdfeca2702
+        jcr:uuid: acb54995-b3aa-4b48-b399-aea0849440d4
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 607c5f42-e7a6-41a4-8df7-2eb6a6f2dd98
+          jcr:uuid: 28796f0f-0fb6-4707-9b2f-c9128e06274e
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
@@ -52,7 +52,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:bannerdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: bd96f0b5-60ed-47eb-b2c0-c8a99527b26f
+          jcr:uuid: c9f2e405-c4b6-4339-8a49-a48a176f090a
           gogreen:title: ''
           hippo:related___pathreference: []
           hippostd:holder: holder

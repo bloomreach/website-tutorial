@@ -3,4 +3,4 @@ definitions:
     /hippo:namespaces/gogreen:
       jcr:primaryType: hipposysedit:namespace
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 4e95e7a4-f16b-46ac-87cb-0f3750b6d1f1
+      jcr:uuid: cd117f1e-d2e1-4b34-b322-639746a23eb0

@@ -3,15 +3,15 @@ definitions:
     /hippo:namespaces/gogreen/newsdocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: f8c2e685-26e1-4d5e-b42d-23a02f7267cb
+      jcr:uuid: b1f43dcb-6a54-4db9-b3ad-5f32b005f3e7
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 30cee268-38e0-4bd4-8aaf-0a88fd1d622e
+        jcr:uuid: 48ecde48-1f84-4385-a2ee-fe9f3d2fdbf9
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: af99f75a-37e0-4ae0-8ec8-e5e1cc87cc4c
+          jcr:uuid: 0ddb8a68-218b-441a-a16b-6b478b17ed48
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
@@ -93,7 +93,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: b993955e-3a09-4795-b6c6-9fed28836cbf
+          jcr:uuid: c24d5af9-4f6c-460e-8483-98fcfa96f0f2
           gogreen:date: 0001-01-01T13:00:00+01:00
           gogreen:documenttype: news
           gogreen:introduction: ''

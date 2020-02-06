@@ -3,7 +3,7 @@
 <#-- @ftlvariable name="document" type="org.example.beans.Banner" -->
 <#if document??>
 <div>
-  <#if document.class.name == 'org.example.beans.Banner'>
+  <#if hst.isNodeType(document.node, 'gogreen:bannerdocument')>
   <a href="<@hst.link hippobean=document.link />">
     <figure style="position: relative">
       <@hst.manageContent hippobean=document parameterName="document" rootPath="banners"/>

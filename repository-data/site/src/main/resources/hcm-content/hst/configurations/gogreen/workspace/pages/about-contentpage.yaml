@@ -1,13 +1,13 @@
 /hst:hst/hst:configurations/gogreen/hst:workspace/hst:pages/about-contentpage:
   jcr:primaryType: hst:component
-  hst:lastmodified: 2019-07-31T10:06:31.918-07:00
+  hst:lastmodified: 2019-11-25T12:16:15.717-08:00
   hst:referencecomponent: hst:abstractpages/twocolumns
   /main:
     jcr:primaryType: hst:component
     /left:
       jcr:primaryType: hst:containercomponent
       hst:label: Content Page Main
-      hst:lastmodified: 2019-07-31T10:07:21.056-07:00
+      hst:lastmodified: 2019-11-25T12:22:10.864-08:00
       hst:xtype: hst.vbox
       /simplecontent:
         jcr:primaryType: hst:containeritemcomponent

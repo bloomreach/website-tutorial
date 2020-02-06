@@ -5,4 +5,5 @@
   /content:
     jcr:primaryType: hst:containeritemcomponent
     hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+    hst:label: Content
     hst:template: contentpage-main

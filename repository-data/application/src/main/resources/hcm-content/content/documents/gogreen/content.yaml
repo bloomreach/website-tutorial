@@ -2,9 +2,9 @@
   .meta:order-before: about
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-  jcr:uuid: 4cd10cf2-0e7b-48e6-b014-3654010a5a1e
+  jcr:uuid: a01c599a-2235-4890-b41f-b93a647ddcd5
   hippostd:foldertype: [new-content-document, new-content-folder]
-  hippotranslation:id: 9767d78a-2a0a-4080-bbaa-190de441f6a8
+  hippotranslation:id: 99ab02be-7413-4b02-b002-e9023e2e7795
   hippotranslation:locale: en
   /sample-document:
     jcr:primaryType: hippo:handle
@@ -14,7 +14,7 @@
     /sample-document:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: c751e3c6-fab4-4444-a3c2-515b9eed8fff
+      jcr:uuid: 1cdb464b-2742-4eff-af47-cc8c18b20e06
       gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       gogreen:publicationdate: 2014-03-25T16:52:00+01:00
@@ -27,7 +27,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
-      hippotranslation:id: 39c5641d-30ec-46f4-85b9-ea4effb135e3
+      hippotranslation:id: 0993089c-5e19-478e-9ab1-33989942c509
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -56,7 +56,7 @@
     /another-sample-document:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 4c4613eb-44e4-4092-8b6a-671a06589dac
+      jcr:uuid: bb0a8189-79b6-4b23-bc7c-1d54a4b182f1
       gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       gogreen:publicationdate: 2014-03-25T16:52:00+01:00
@@ -69,7 +69,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
-      hippotranslation:id: 3de76f01-8f1c-46c2-bfa7-388b9533274b
+      hippotranslation:id: ecebb423-65fe-41b5-ad77-873c38c90133
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -93,25 +93,25 @@
   /quick-facts:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: 57f113b3-966b-4f01-adfe-b83a371c7b6a
+    jcr:uuid: 9c493b5d-bfa6-4553-a3e4-4ffdf50e2cb2
     hippo:name: Quick Facts
-    hippo:versionHistory: ff139948-edfb-4ad2-a26a-5afe87a6a274
+    hippo:versionHistory: a77d669e-afa0-48b2-b05c-be24ed71f2f0
     /quick-facts[1]:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 591a1b54-fa85-438c-a4b7-1c33a0d16a06
+      jcr:uuid: 4158cbbe-3165-40f1-8ef1-e02d656c9f09
       gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
         offices worldwide.
-      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
-      gogreen:title: Quick Facts
+      gogreen:publicationdate: 2019-11-25T14:00:00-08:00
+      gogreen:title: Quick facts about BloomReach
       hippo:availability: []
       hippo:related___pathreference: []
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2019-07-31T10:42:27.706-07:00
-      hippostdpubwf:lastModificationDate: 2019-07-31T10:42:27.706-07:00
+      hippostdpubwf:creationDate: 2019-11-25T14:00:35.357-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:00:35.358-08:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 1497cf30-9b80-48da-af3f-b39a7df1bec3
+      hippotranslation:id: 60a3a0ff-6eb7-4045-9152-ae2b66e24e46
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -122,19 +122,19 @@
     /quick-facts[2]:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: 40f89213-39fd-4cfc-8922-629bf48b0051
+      jcr:uuid: 6c582047-ad03-4774-a6a6-12709d338d31
       gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
         offices worldwide.
-      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
-      gogreen:title: Quick Facts
+      gogreen:publicationdate: 2019-11-25T14:00:00-08:00
+      gogreen:title: Quick facts about BloomReach
       hippo:availability: [preview]
       hippo:related___pathreference: []
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2019-07-31T10:42:27.706-07:00
-      hippostdpubwf:lastModificationDate: 2019-07-31T10:42:43.986-07:00
+      hippostdpubwf:creationDate: 2019-11-25T14:00:35.357-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:01:00.403-08:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 1497cf30-9b80-48da-af3f-b39a7df1bec3
+      hippotranslation:id: 60a3a0ff-6eb7-4045-9152-ae2b66e24e46
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -145,20 +145,20 @@
     /quick-facts[3]:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: a3b4515f-f6ca-4c66-ba9f-514bf1a80770
+      jcr:uuid: ce4e7acf-43c6-415a-8781-1ab8b67599f7
       gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
         offices worldwide.
-      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
-      gogreen:title: Quick Facts
+      gogreen:publicationdate: 2019-11-25T14:00:00-08:00
+      gogreen:title: Quick facts about BloomReach
       hippo:availability: [live]
       hippo:related___pathreference: []
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2019-07-31T10:42:27.706-07:00
-      hippostdpubwf:lastModificationDate: 2019-07-31T10:42:43.986-07:00
+      hippostdpubwf:creationDate: 2019-11-25T14:00:35.357-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:01:00.403-08:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2019-07-31T10:42:46.171-07:00
-      hippotranslation:id: 1497cf30-9b80-48da-af3f-b39a7df1bec3
+      hippostdpubwf:publicationDate: 2019-11-25T14:01:02.728-08:00
+      hippotranslation:id: 60a3a0ff-6eb7-4045-9152-ae2b66e24e46
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -169,24 +169,24 @@
   /terms--conditions:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: 8c6b6311-5452-4f7d-8ead-8d609dd52338
+    jcr:uuid: 0feae264-b60c-4ef0-849f-30a9f69065ea
     hippo:name: Terms & Conditions
-    hippo:versionHistory: b4d1898a-7c23-4c3f-8661-8d865239a722
+    hippo:versionHistory: d84cd900-d07c-4d74-9a65-3a88359ba24a
     /terms--conditions[1]:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 76da8bdc-15c3-4f3c-9776-de354d88c5c2
+      jcr:uuid: 9eecd8f1-ff5a-4d00-8792-b5b74b1fe1f0
       gogreen:introduction: All content is only used for demo uses.
-      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:publicationdate: 2019-11-25T14:01:00-08:00
       gogreen:title: Terms & Conditions
       hippo:availability: []
       hippo:related___pathreference: []
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2019-07-31T10:42:54.788-07:00
-      hippostdpubwf:lastModificationDate: 2019-07-31T10:42:54.788-07:00
+      hippostdpubwf:creationDate: 2019-11-25T14:01:12.330-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:01:12.330-08:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 4cdc47de-8b15-44e8-b7dc-ebe7736cdbab
+      hippotranslation:id: f79d39dc-10bb-45bf-98e5-02d773f79956
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -197,18 +197,18 @@
     /terms--conditions[2]:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: 7b2b7e37-582f-4dc3-b516-5fb9c59c7d49
+      jcr:uuid: bbba28b7-c5a1-438c-bd7a-4a5800bac6fe
       gogreen:introduction: All content is only used for demo uses.
-      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:publicationdate: 2019-11-25T14:01:00-08:00
       gogreen:title: Terms & Conditions
       hippo:availability: [preview]
       hippo:related___pathreference: []
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2019-07-31T10:42:54.788-07:00
-      hippostdpubwf:lastModificationDate: 2019-07-31T10:43:06.211-07:00
+      hippostdpubwf:creationDate: 2019-11-25T14:01:12.330-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:01:24.740-08:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 4cdc47de-8b15-44e8-b7dc-ebe7736cdbab
+      hippotranslation:id: f79d39dc-10bb-45bf-98e5-02d773f79956
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html
@@ -219,19 +219,19 @@
     /terms--conditions[3]:
       jcr:primaryType: gogreen:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 5f2aa39a-8132-4ca9-8904-3b0c92ea3149
+      jcr:uuid: e2197d15-55ba-490a-81a3-6157fb29bf5b
       gogreen:introduction: All content is only used for demo uses.
-      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:publicationdate: 2019-11-25T14:01:00-08:00
       gogreen:title: Terms & Conditions
       hippo:availability: [live]
       hippo:related___pathreference: []
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2019-07-31T10:42:54.788-07:00
-      hippostdpubwf:lastModificationDate: 2019-07-31T10:43:06.211-07:00
+      hippostdpubwf:creationDate: 2019-11-25T14:01:12.330-08:00
+      hippostdpubwf:lastModificationDate: 2019-11-25T14:01:24.740-08:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2019-07-31T10:43:07.693-07:00
-      hippotranslation:id: 4cdc47de-8b15-44e8-b7dc-ebe7736cdbab
+      hippostdpubwf:publicationDate: 2019-11-25T14:01:26.098-08:00
+      hippotranslation:id: f79d39dc-10bb-45bf-98e5-02d773f79956
       hippotranslation:locale: en
       /gogreen:content:
         jcr:primaryType: hippostd:html

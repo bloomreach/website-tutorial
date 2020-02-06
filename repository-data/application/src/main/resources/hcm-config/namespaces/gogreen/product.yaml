@@ -3,15 +3,15 @@ definitions:
     /hippo:namespaces/gogreen/product:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: ace67f3e-0849-4c63-a158-3c40d67302a1
+      jcr:uuid: 49c580ed-de0d-4966-8d0b-9583c132c5b7
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 63fd99d9-1073-40d9-bcda-ebde7a64fd54
+        jcr:uuid: e1989be2-9e9f-45ca-aba1-838c71e5b2f3
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: a80e957d-2d13-408c-b2fd-947c514f1c1a
+          jcr:uuid: 9044577a-118c-4682-8e59-8a3817c86bf2
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
@@ -74,9 +74,9 @@ definitions:
           gogreen:title: ''
           gogreen:price: 0.0
           gogreen:introduction: ''
-          jcr:uuid: 82062eb4-6cd8-408a-8048-57d271b858f8
-          hippostdpubwf:lastModificationDate: 2019-07-31T11:31:20.785-07:00
-          hippostdpubwf:creationDate: 2019-07-31T11:31:20.785-07:00
+          jcr:uuid: b2f6ce9d-0af3-42dc-94ae-bd38b3627dbe
+          hippostdpubwf:lastModificationDate: 2019-11-25T14:13:39.632-08:00
+          hippostdpubwf:creationDate: 2019-11-25T14:13:39.632-08:00
           /gogreen:description:
             jcr:primaryType: hippostd:html
             hippostd:content: ''

@@ -10,6 +10,6 @@ definitions:
         /image gallery:
           jcr:primaryType: hippogallery:stdImageGallery
           jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 3bd46422-6741-4d2b-a9bb-ff712e4e181b
+          jcr:uuid: 2eb81a28-b0a9-4654-807b-26aff6aa2cd2
           hippostd:foldertype: [new-gogreen-imageset-folder]
           hippostd:gallerytype: ['gogreen:imageset']

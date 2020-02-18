@@ -2,14 +2,14 @@
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['mix:referenceable']
   jcr:uuid: 6d19dc3a-e5db-4689-bc87-e70aec3385b7
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:foldertype: [new-gogreen-imageset-folder]
+  hippostd:gallerytype: ['gogreen:imageset']
   /viognier-grapes-188185_640.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: beff458e-e07a-4065-8cad-8d96b67d13ec
     /viognier-grapes-188185_640.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: gogreen:imageset
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: f6664697-54bc-45f0-ae21-73db11c2d609
       hippo:availability: [live, preview]
@@ -21,7 +21,7 @@
         hippogallery:width: 58
         jcr:data:
           type: binary
-          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640_thumbnail.jpg
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -30,15 +30,69 @@
         hippogallery:width: 625
         jcr:data:
           type: binary
-          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640_original.jpg
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/original/original.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 218
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/small/small.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.664-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 294
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/large/large.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.694-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 227
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.731-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 313
+        hippogallery:width: 305
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.762-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 640
+        hippogallery:width: 625
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.797-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 244
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.840-08:00
         jcr:mimeType: image/jpeg
   /animal-2883_640.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: 4709f797-61ae-4c36-93d4-63b5d50fc200
     /animal-2883_640.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: gogreen:imageset
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 12ee4e3a-9f39-41b4-963e-c635b8e2d843
       hippo:availability: [live, preview]
@@ -50,7 +104,7 @@
         hippogallery:width: 60
         jcr:data:
           type: binary
-          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640_thumbnail.jpg
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -59,15 +113,69 @@
         hippogallery:width: 640
         jcr:data:
           type: binary
-          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640_original.jpg
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/original/original.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 336
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/small/small.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.255-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 453
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/large/large.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.273-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 155
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.298-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 208
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.315-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 426
+        hippogallery:width: 640
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.335-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 375
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/animal-2883_640.jpg/animal-2883_640.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.353-08:00
         jcr:mimeType: image/jpeg
   /snail-193611_640.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
     /snail-193611_640.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: gogreen:imageset
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 8a932fb1-a907-4278-8a78-e2266e5f198c
       hippo:availability: [live, preview]
@@ -79,7 +187,7 @@
         hippogallery:width: 60
         jcr:data:
           type: binary
-          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640_thumbnail.jpg
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2013-11-12T12:13:00+01:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -88,6 +196,60 @@
         hippogallery:width: 640
         jcr:data:
           type: binary
-          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640_original.jpg
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/original/original.jpg
         jcr:lastModified: 2013-11-12T12:13:00+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 298
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/small/small.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.871-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 402
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/large/large.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.896-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 174
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.937-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 234
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:46.995-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 480
+        hippogallery:width: 640
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.020-08:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 333
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/samples/snail-193611_640.jpg/snail-193611_640.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-02-18T10:42:47.048-08:00
         jcr:mimeType: image/jpeg

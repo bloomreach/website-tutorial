@@ -1,0 +1,6 @@
+site: gogreen
+group: gogreen
+project: gogreen
+module:
+  name: gogreen-repository-data-site-development
+  after: gogreen-repository-data-site

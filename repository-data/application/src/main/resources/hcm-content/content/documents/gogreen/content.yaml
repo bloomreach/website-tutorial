@@ -90,3 +90,167 @@
 
                       </body>
                       </html>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 06cae2eb-8cd9-41f0-ad7b-742bf3a44af8
+    hippo:name: Quick Facts
+    hippo:versionHistory: c218682a-0a2c-4ad3-bec9-b17f09f82366
+    /quick-facts[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6aadcae3-b4b6-4268-bf9e-e45d137c513b
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about Hippo
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-18T12:45:04.838-08:00
+      hippostdpubwf:lastModificationDate: 2020-02-18T12:45:04.839-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5ac79d1b-9737-4398-8c7c-51f814b54f5f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Founded in 1999</li>
+           <li>80+ employees</li>
+           <li>Offices in Amsterdam and Boston</li>
+           <li>Privately held</li>
+           <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+          </ul>
+
+          <p>Acquired by BloomReach in 2016.</p>
+    /quick-facts[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 31124101-2818-4c28-ac00-03620452667a
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about Hippo
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-18T12:45:04.838-08:00
+      hippostdpubwf:lastModificationDate: 2020-02-18T12:46:08.063-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5ac79d1b-9737-4398-8c7c-51f814b54f5f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Founded in 1999</li>
+           <li>80+ employees</li>
+           <li>Offices in Amsterdam and Boston</li>
+           <li>Privately held</li>
+           <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+          </ul>
+
+          <p>Acquired by BloomReach in 2016.</p>
+    /quick-facts[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 619fe349-5f96-4f06-95bb-7f2d5757a727
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about Hippo
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-18T12:45:04.838-08:00
+      hippostdpubwf:lastModificationDate: 2020-02-18T12:46:08.063-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-02-18T12:46:10.343-08:00
+      hippotranslation:id: 5ac79d1b-9737-4398-8c7c-51f814b54f5f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Founded in 1999</li>
+           <li>80+ employees</li>
+           <li>Offices in Amsterdam and Boston</li>
+           <li>Privately held</li>
+           <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+          </ul>
+
+          <p>Acquired by BloomReach in 2016.</p>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 89433f51-09e3-408c-9cce-779966c8ee77
+    hippo:name: Terms & Conditions
+    hippo:versionHistory: a875d5cb-c8e2-4d2c-b0b0-74853e57b64d
+    /terms--conditions[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 89edbf3d-fb25-4b3f-90a2-da7541e81920
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-18T12:46:19.199-08:00
+      hippostdpubwf:lastModificationDate: 2020-02-18T12:46:19.199-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 23392fc9-2adb-47a6-9c1b-0de34a3054e6
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>All content is only used for demo uses.</p>
+
+          <p>Bloomreach&nbsp;tried to only use Creative commons license &amp; give the credits to the original owners. If you find some content wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com and we will remove it.</p>
+    /terms--conditions[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 3260707e-085b-4e58-85c5-2c24174df124
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-18T12:46:19.199-08:00
+      hippostdpubwf:lastModificationDate: 2020-02-18T12:46:46.376-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 23392fc9-2adb-47a6-9c1b-0de34a3054e6
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>All content is only used for demo uses.</p>
+
+          <p>Bloomreach&nbsp;tried to only use Creative commons license &amp; give the credits to the original owners. If you find some content wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com and we will remove it.</p>
+    /terms--conditions[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 53a898e7-8a55-4441-b122-839fff52a322
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-18T12:46:19.199-08:00
+      hippostdpubwf:lastModificationDate: 2020-02-18T12:46:46.376-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-02-18T12:46:47.694-08:00
+      hippotranslation:id: 23392fc9-2adb-47a6-9c1b-0de34a3054e6
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>All content is only used for demo uses.</p>
+
+          <p>Bloomreach&nbsp;tried to only use Creative commons license &amp; give the credits to the original owners. If you find some content wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com and we will remove it.</p>

@@ -1,4 +1,4 @@
-# BloomReach Experience Manager Tutorial: Build a Website
+# Bloomreach Experience Manager Tutorial: Build a Website
 
 This tutorial will guide you through the development of GoGreen, brXM's demo
 website. The tutorial follows two development iterations. In each iteration,

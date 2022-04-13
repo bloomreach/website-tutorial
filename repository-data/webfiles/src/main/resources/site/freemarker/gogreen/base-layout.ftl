@@ -52,7 +52,7 @@
             <div class="col-sm-5" id="top-search">
  
               <div class="searchbox">
-                <form action="search.html" method="get">
+                <form action="<@hst.link siteMapItemRefId="search" />" method="get">
                   <input type="text" class="searchbox-inputtext" id="searchbox-inputtext" name="query"
                     placeholder="Search" /> <label class="searchbox-icon" for="searchbox-inputtext"></label> <input
                     type="submit" class="searchbox-submit" value="Search" />
@@ -129,7 +129,7 @@
      
   </div>
    
-  <script src="<@hst.webfile path="/js/jquery-3.5.1.min.js"/>" type="text/javascript"></script>
+  <script src="<@hst.webfile path="/js/jquery-2.1.0.min.js"/>" type="text/javascript"></script>
   <script src="<@hst.webfile path="/js/bootstrap.min.js"/>" type="text/javascript"></script>
   <script src="<@hst.webfile path="/js/kanzi-menu.js"/>" type="text/javascript"></script>
  

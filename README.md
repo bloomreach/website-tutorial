@@ -16,8 +16,8 @@ The tutorial describes two project iterations:
 
 The result of each project iteration is available from the corresponding branch:
 
-1. [iteration-1](https://github.com/bloomreach/website-tutorial/tree/iteration-1)
-2. [iteration-2](https://github.com/bloomreach/website-tutorial/tree/iteration-2)
+1. [iteration-1](https://github.com/bloomreach/website-tutorial/tree/iteration-1-15.0.0)
+2. iteration-2 (coming soon for brXM 15)
 
 ## Running locally
 

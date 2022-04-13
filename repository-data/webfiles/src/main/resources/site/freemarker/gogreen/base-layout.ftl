@@ -2,7 +2,7 @@
 <#include "../include/imports.ftl">
 <html class="no-js" lang="en">
 <head>
-<title>BloomReach Go Green - Home</title>
+<title>Bloomreach Go Green - Home</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
@@ -23,7 +23,7 @@
  
 <link rel="apple-touch-icon" href="<@hst.webfile path="/images/apple-touch-icon.png"/>" />
  
-<link rel="alternate" type="application/rss+xml" title="BloomReach Go Green RSS" href="rss" />
+<link rel="alternate" type="application/rss+xml" title="Bloomreach Go Green RSS" href="rss" />
  
 <@hst.headContributions categoryIncludes="htmlHead" xhtml=true/>
  

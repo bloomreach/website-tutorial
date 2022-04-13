@@ -89,3 +89,73 @@
 
                       </body>
                       </html>
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b4deca23-3b1b-4b3c-9b6b-9a864dfedc01
+    hippo:name: About
+    hippo:versionHistory: fb0c2f4d-55e5-4318-aaf9-708be5025779
+    /about[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7b841946-8732-454f-af22-5620213909e7
+      gogreen:introduction: This website is a demo website to showcase Bloomreach
+        Experience Manager.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-13T12:45:15.050-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-13T12:45:15.050-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8f44b446-632b-4121-a27a-b1127110ad5f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Find out more at&nbsp;<a href="https://www.bloomreach.com/">bloomreach.com</a></p>
+    /about[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: ae91367e-94b9-44e0-87a3-b09d3dfbe766
+      gogreen:introduction: This website is a demo website to showcase Bloomreach
+        Experience Manager.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-13T12:45:15.050-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-13T12:46:52.534-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8f44b446-632b-4121-a27a-b1127110ad5f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Find out more at&nbsp;<a href="https://www.bloomreach.com/">bloomreach.com</a></p>
+    /about[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 26b039f8-b0c6-4057-b926-1303a0f54b43
+      gogreen:introduction: This website is a demo website to showcase Bloomreach
+        Experience Manager.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-13T12:45:15.050-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-13T12:46:52.534-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-13T12:46:57.760-07:00
+      hippotranslation:id: 8f44b446-632b-4121-a27a-b1127110ad5f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Find out more at&nbsp;<a href="https://www.bloomreach.com/">bloomreach.com</a></p>

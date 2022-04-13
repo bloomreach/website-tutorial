@@ -53,7 +53,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 center-text">
-            <div class="copyright-text">BloomReach &copy; 2010-2019</div>
+            <div class="copyright-text">Bloomreach &copy; 2010-2019</div>
           </div>
  
         </div>

@@ -159,3 +159,146 @@
       /gogreen:content:
         jcr:primaryType: hippostd:html
         hippostd:content: <p>Find out more at&nbsp;<a href="https://www.bloomreach.com/">bloomreach.com</a></p>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 11b94b29-d428-4604-9516-f65d996ccf58
+    hippo:name: Quick Facts
+    hippo:versionHistory: f57100b0-bd15-4284-9787-07b533d65d2f
+    /quick-facts[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 823391f6-27c4-4353-b01a-f172477dd595
+      gogreen:introduction: Introduction
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick Facts
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-14T08:53:21.472-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-14T08:53:21.472-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 24450d4a-3b3b-4c72-8a47-aa0e691f1eb2
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Content</p>
+    /quick-facts[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 7aa380d4-8aec-445f-9893-9a0f69d531fa
+      gogreen:introduction: Introduction
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick Facts
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-14T08:53:21.472-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-14T08:55:18.071-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 24450d4a-3b3b-4c72-8a47-aa0e691f1eb2
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Content</p>
+    /quick-facts[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1d0f8ec1-3a68-4ee0-9b4c-e116095d5c60
+      gogreen:introduction: Introduction
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick Facts
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-14T08:53:21.472-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-14T08:55:18.071-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-14T08:55:21.338-07:00
+      hippotranslation:id: 24450d4a-3b3b-4c72-8a47-aa0e691f1eb2
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Content</p>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: a4a89002-5fa8-4d64-9256-17828dbf5de1
+    hippo:name: Terms & Conditions
+    hippo:versionHistory: 2590b6fd-8d11-4334-9a41-ccdaa119adcd
+    /terms--conditions[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cc5b0804-b136-4f3d-ad91-fb0df7b69dde
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-14T08:55:31.728-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-14T08:55:31.729-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a8aa85b7-0c65-4116-beb5-f8feb56964b3
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Bloomreach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 39dad1be-0d4d-4246-a702-1a87c488e721
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-14T08:55:31.728-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-14T08:55:55.765-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a8aa85b7-0c65-4116-beb5-f8feb56964b3
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Bloomreach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 57518567-33e8-426e-a99a-5c33f6e2b238
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-14T08:55:31.728-07:00
+      hippostdpubwf:lastModificationDate: 2022-04-14T08:55:55.765-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-14T08:55:57.232-07:00
+      hippotranslation:id: a8aa85b7-0c65-4116-beb5-f8feb56964b3
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Bloomreach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>

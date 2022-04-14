@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/newspage/main/left:
+  jcr:primaryType: hst:containercomponent
+  hippo:identifier: fd3c36b9-832c-4da9-9357-d75696314117
+  hst:label: News Page Main
+  hst:xtype: hst.vbox
+  /content:
+    jcr:primaryType: hst:containeritemcomponent
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+    hst:label: Content
+    hst:template: newspage-main
